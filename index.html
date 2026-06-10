@@ -1,76 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fishing Fix</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fishing Fix is a cinematic outdoor brand focused on premium fishing storytelling, rugged gear, and documentary-style adventures.">
+  <meta name="theme-color" content="#04070d">
+  <meta property="og:title" content="Fishing Fix | Cinematic Fishing Stories">
+  <meta property="og:description" content="A premium outdoor brand built on cinematic fishing adventures, film-first storytelling, and rugged gear.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fixfishingfix.com/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Fishing Fix | Cinematic Fishing Stories">
+  <meta name="twitter:description" content="Premium outdoor fixtures, film-first adventures, and modern gear for the edge of the water.">
+  <title>Fishing Fix | Cinematic Fishing Stories</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header class="hero" id="top">
+    <video class="hero-video desktop" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1600&q=80">
+      <source src="assets/video/finalwebhero.mp4" type="video/mp4">
+    </video>
+    <video class="hero-video mobile" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=900&q=80">
+      <source src="assets/video/finalmobilehero.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
 
-<header class="hero">
-  <video class="hero-video desktop" autoplay muted loop playsinline>
-    <source src="assets/video/finalwebhero.mp4" type="video/mp4">
-  </video>
-  <video class="hero-video mobile" autoplay muted loop playsinline>
-    <source src="assets/video/finalmobilehero.mp4" type="video/mp4">
-  </video>
+    <div class="site-shell hero-shell">
+      <nav class="nav glass-card" aria-label="Primary navigation">
+        <a class="brand" href="#top">Fishing Fix</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#adventures">Adventures</a>
+          <a href="#gear">Gear</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#social">Social</a>
+        </div>
+      </nav>
 
-  <div class="overlay"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Documentary-grade fishing adventures</p>
+        <h1>Cinematic fishing from the edge.</h1>
+        <p class="lede">Remote shoreline missions, Sunday film drops, and the kind of fishing stories that feel cinematic from the first frame.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://www.youtube.com/@FishingFixation" target="_blank" rel="noreferrer">Watch here</a>
+          <a class="button button-secondary" href="#videos">Explore the journey</a>
+        </div>
+      </div>
 
-  <nav>
-    <div class="logo">FISHING FIX</div>
-    <div class="links">
-      <a href="#about">About</a>
-      <a href="#films">Films</a>
-      <a href="#gear">Gear</a>
-      <a href="#social">Social</a>
+      <a class="scroll-indicator" href="#about" aria-label="Scroll to about section">Scroll</a>
     </div>
-  </nav>
+  </header>
 
-  <div class="hero-content">
-    <h1>Remote Australian Fishing Adventures</h1>
-    <p>Films, exploration and land‑based fishing from the edge.</p>
-    <a class="btn" href="https://www.youtube.com/@FishingFixation" target="_blank">Watch Films</a>
+  <main>
+    <section id="about" class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">About Fishing Fix</p>
+        <h2>Land-based fishing stories, built for the wild edge.</h2>
+      </div>
+      <div class="split-grid">
+        <article class="panel glass-card">
+          <p>Fishing Fix is a land-based fishing YouTuber built around remote Australia, rock fishing, catch-and-cook sessions, and the kind of patience you only get when the tide turns and the light drops low. The focus is simple: fish hard, film it clean, and tell the story with real atmosphere.</p>
+          <p>Big fish off the rocks, campfire meals, and the wild Australian wilderness have become the core of the brand. New films usually drop on Sundays, and each release is shaped like a short documentary rather than a quick clip.</p>
+        </article>
+        <article class="panel glass-card accent-panel">
+          <h3>What defines the brand</h3>
+          <ul class="feature-list">
+            <li>Land-based fishing and remote shoreline missions</li>
+            <li>Catch-and-cook stories from the Australian wild</li>
+            <li>Sunday film drops, rugged gear, and film-first pacing</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="adventures" class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Featured Adventures</p>
+        <h2>High-contrast missions from the shoreline to the horizon.</h2>
+      </div>
+      <div class="card-grid">
+        <article class="adventure-card glass-card" style="--card-bg:url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80')">
+          <span class="pill">Remote shoreline</span>
+          <h3>Night Drift</h3>
+          <p>Low-light drift sessions, deep color, and the quiet tension of the first take.</p>
+          <ul class="meta"><li>6 hr window</li><li>Wind 12 knots</li><li>Moonrise</li></ul>
+        </article>
+        <article class="adventure-card glass-card" style="--card-bg:url('https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&w=900&q=80')">
+          <span class="pill">Rock ledge</span>
+          <h3>Edge Light</h3>
+          <p>Precision casting, dramatic foam lines, and the kind of frame that invites a second watch.</p>
+          <ul class="meta"><li>Rough reef</li><li>Clear swell</li><li>Golden hour</li></ul>
+        </article>
+        <article class="adventure-card glass-card" style="--card-bg:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80')">
+          <span class="pill">Film-first</span>
+          <h3>Quiet Current</h3>
+          <p>Slow, cinematic coverage built on light, texture, and controlled movement.</p>
+          <ul class="meta"><li>Soft tide</li><li>Low wash</li><li>Documentary cut</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="videos" class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Latest YouTube films</p>
+        <h2>Watch the real releases from the Fishing Fix channel.</h2>
+      </div>
+      <div class="video-grid">
+        <a class="video-card glass-card" href="https://www.youtube.com/watch?v=LLeiYvlzWCI" target="_blank" rel="noreferrer"><img src="https://img.youtube.com/vi/LLeiYvlzWCI/maxresdefault.jpg" alt="When Plans Change | FISHING Remote Australia (Catch and Cook)" loading="lazy"><strong>When Plans Change</strong><span>Remote Australia • Catch and cook</span></a>
+        <a class="video-card glass-card" href="https://www.youtube.com/watch?v=uKLN3RODkHE" target="_blank" rel="noreferrer"><img src="https://img.youtube.com/vi/uKLN3RODkHE/maxresdefault.jpg" alt="4 Days Fishing A Remote Island In Australia" loading="lazy"><strong>4 Days on a Remote Island</strong><span>Island mission • full episode</span></a>
+        <a class="video-card glass-card" href="https://www.youtube.com/watch?v=tyG18aTpg1U" target="_blank" rel="noreferrer"><img src="https://img.youtube.com/vi/tyG18aTpg1U/maxresdefault.jpg" alt="We Should NOT Have Gone FISHING! - 2 Day Rock Fishing Madness (Australia)" loading="lazy"><strong>2 Day Rock Fishing Madness</strong><span>Rock fishing • high tension</span></a>
+        <a class="video-card glass-card" href="https://www.youtube.com/watch?v=CyyQJnpk7N4" target="_blank" rel="noreferrer"><img src="https://img.youtube.com/vi/CyyQJnpk7N4/maxresdefault.jpg" alt="On The Hunt - 2 Days Land Based Fishing Australia’s Coast" loading="lazy"><strong>On The Hunt</strong><span>Coastal mission • long-form</span></a>
+        <a class="video-card glass-card" href="https://www.youtube.com/watch?v=SXhHgs_C3_I" target="_blank" rel="noreferrer"><img src="https://img.youtube.com/vi/SXhHgs_C3_I/maxresdefault.jpg" alt="2 Days Land Based Fishing NOOSA - Australia" loading="lazy"><strong>Noosa Two-Day Session</strong><span>Land-based • coastal setup</span></a>
+        <a class="video-card glass-card" href="https://www.youtube.com/watch?v=It4UHKJSbTY" target="_blank" rel="noreferrer"><img src="https://img.youtube.com/vi/It4UHKJSbTY/maxresdefault.jpg" alt="Land Based FISHING on Youtube! - Gear Breakdown (Filming and Fishing)" loading="lazy"><strong>Gear Breakdown</strong><span>Filming + fishing • setup notes</span></a>
+      </div>
+    </section>
+
+    <section id="featured-film" class="section reveal">
+      <article class="feature-film glass-card">
+        <div>
+          <p class="eyebrow">Featured Film</p>
+          <h2>Watch the latest shoreline story from the Fishing Fix archive.</h2>
+          <p>Built with a focus on atmosphere, framing, and long-form pacing, this short film delivers the same premium feeling as a high-end outdoor documentary. It is an invitation to slow down and watch the water change under the light.</p>
+          <a class="button button-primary" href="https://www.youtube.com/@FishingFixation" target="_blank" rel="noreferrer">Open the YouTube channel</a>
+        </div>
+        <aside class="film-note glass-card">
+          <p class="mini-label">Now showing</p>
+          <h3>Premium film drops</h3>
+          <p>Fresh edits, behind-the-scenes notes, and shoreline footage captured in the field.</p>
+          <ul class="check-list">
+            <li>High-contrast color grading</li>
+            <li>Atmospheric audio and pacing</li>
+            <li>Seasonal catch and setup notes</li>
+          </ul>
+        </aside>
+      </article>
+    </section>
+
+    <section id="gear" class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Gear</p>
+        <h2>Equipment chosen for confidence, comfort, and clean frame composition.</h2>
+      </div>
+      <div class="card-grid gear-grid">
+        <article class="gear-card glass-card"><h3>Light</h3><p>Rod: Daiwa 22 Tierra 1.5–3kg (2–10g) 7ft<br>Reel: Daiwa Emeraldas 24 XLT 2500<br>Braid: PE 1 (Expedition)<br>Leader: 10lb Black Magic FC</p></article>
+        <article class="gear-card glass-card"><h3>Med Light</h3><p>Rod: Daiwa 23 TD Hyper 4–9kg (7–40g) 7ft6<br>Reel: Daiwa Exceller LT 4000D<br>Braid: 20lb J<br>Leader: 30lb Black Magic FC</p></article>
+        <article class="gear-card glass-card"><h3>Med</h3><p>Rod: Daiwa TD Black (Slugger) 6–12 8ft<br>Reel: Daiwa BG MQ 6000D<br>Braid: 30lb J<br>Leader: 40lb Supple Black Magic</p></article>
+        <article class="gear-card glass-card"><h3>Heavy</h3><p>Rod: Daiwa Saltist PE 6 (30–100g)<br>Reel: Daiwa Saltist MQ 14K<br>Braid: 50lb J<br>Leader: 100lb Black Magic Supple</p></article>
+      </div>
+    </section>
+
+    <section id="gallery" class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Gallery</p>
+        <h2>Frames from the waterline, the shoreline, and the stillness between casts.</h2>
+      </div>
+      <div class="masonry-grid">
+        <figure class="gallery-item"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80" alt="Ocean horizon at sunrise" loading="lazy"></figure>
+        <figure class="gallery-item tall"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Rugged coastal shoreline" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80" alt="Golden light over the water" loading="lazy"></figure>
+        <figure class="gallery-item wide"><img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80" alt="Cinematic coastal landscape" loading="lazy"></figure>
+        <figure class="gallery-item"><img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=900&q=80" alt="Open ocean and weathered coastline" loading="lazy"></figure>
+        <figure class="gallery-item tall"><img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=900&q=80" alt="Remote beach under dusk light" loading="lazy"></figure>
+      </div>
+    </section>
+
+    <section id="social" class="section reveal social-section">
+      <div class="section-heading">
+        <p class="eyebrow">Social</p>
+        <h2>Follow the visual language of the brand.</h2>
+      </div>
+      <div class="social-grid">
+        <a class="social-card glass-card" href="https://www.youtube.com/@FishingFixation" target="_blank" rel="noreferrer">YouTube</a>
+        <a class="social-card glass-card" href="https://www.instagram.com/fishing_fix_/" target="_blank" rel="noreferrer">Instagram</a>
+        <a class="social-card glass-card" href="https://www.tiktok.com/@fishing_fix" target="_blank" rel="noreferrer">TikTok</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Fishing Fix. Built for cinematic outdoor storytelling.</p>
+    <a href="#top">Back to top</a>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Expanded gallery image">
+    <button class="lightbox-close" type="button" aria-label="Close gallery image">×</button>
+    <img id="lightbox-image" src="" alt="Expanded gallery image">
   </div>
-</header>
 
-<section id="about" class="section">
-  <h2>About</h2>
-  <p>
-    Fishing Fix follows remote fishing adventures across Australia's coastline.
-    From rocky ledges to isolated islands, every trip is about exploration,
-    challenge and unforgettable captures.
-  </p>
-</section>
-
-<section id="films" class="section dark">
-  <h2>Featured Adventures</h2>
-  <div class="cards">
-    <div class="card"><h3>Remote Island Missions</h3></div>
-    <div class="card"><h3>Rock Ledge Sessions</h3></div>
-    <div class="card"><h3>Big Fish Encounters</h3></div>
-  </div>
-</section>
-
-<section id="gear" class="section">
-  <h2>Gear & Techniques</h2>
-  <p>Rods, reels, lures and filming setups used on the journey.</p>
-</section>
-
-<section id="social" class="section dark">
-  <h2>Follow The Journey</h2>
-  <div class="socials">
-    <a href="https://www.youtube.com/@FishingFixation" target="_blank">YouTube</a>
-    <a href="https://www.instagram.com/fishing_fix_/" target="_blank">Instagram</a>
-    <a href="https://www.tiktok.com/@fishing_fix" target="_blank">TikTok</a>
-  </div>
-</section>
-
-<footer>
-  <p>© Fishing Fix</p>
-</footer>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
